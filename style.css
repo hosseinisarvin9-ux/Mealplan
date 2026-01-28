@@ -1,0 +1,103 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #fff7f9, #f8fcff);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(135deg, #ffb6c1, #b3e5fc);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 4px solid #ffd9e0;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Section headings */
+h2 {
+  color: #ff7a91;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+/* Images */
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Lists */
+ul {
+  margin: 0 0 1rem 1.5rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+table, th, td {
+  border: 1px solid #ffe3ea;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+th {
+  background: #ffb6c1;
+  color: white;
+  font-weight: 600;
+}
+
+/* Tips box */
+.tip {
+  background: #fff7f8;
+  border-left: 5px solid #ffb6c1;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+}
